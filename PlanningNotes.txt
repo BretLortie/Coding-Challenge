@@ -1,0 +1,19 @@
+Task 1
+    //Reporting structure can be done fairly simply with recursion
+
+    public static int calculateReporters(Employee person, int counter){
+        int counter = 0;
+        List<Employee> directReports = person.getDirectReports();
+
+        if (directReports != null) {
+            for (Employee report : directReports) {
+                counter++; // count this direct report
+                counter += calculateReporters(report); // count their reports
+            }
+        }
+
+        return counter
+    }
+
+Task 2
+    
