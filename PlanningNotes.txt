@@ -1,3 +1,8 @@
+General
+    Feature branching is likely not necessary for this project. The scope of the tasks is rather small and I dont have to worry about other devs working on it.
+    I used curl commands for initial testing of feature 1. The output of said command is in output.json
+
+
 Task 1
     //Reporting structure can be done fairly simply with recursion
 
@@ -16,4 +21,5 @@ Task 1
     }
 
 Task 2
+    Not really any logic to pseudo code
     
