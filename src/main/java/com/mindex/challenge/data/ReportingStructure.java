@@ -1,5 +1,11 @@
 package com.mindex.challenge.data;
 
+/**
+ * Represents the reporting structure of an employee.
+ * 
+ * A reporting structure for an employee includes the employee
+ * and the total number of reports (direct and indirect).
+ */
 public class ReportingStructure {
     private Employee employee;
     private int numberOfReports;

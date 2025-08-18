@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mindex.challenge.service.impl.EmployeeServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-18T17:20:45" hostname="BRETS_COMPUTER" time="0.042">
+  <properties/>
+  <testcase name="testCreateReadUpdate" classname="com.mindex.challenge.service.impl.EmployeeServiceImplTest" time="0.042"/>
+  <system-out><![CDATA[2025-08-18T13:20:45.407-04:00  INFO 7348 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.EmployeeServiceImplTest]: EmployeeServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-18T13:20:45.409-04:00  INFO 7348 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.EmployeeServiceImplTest
+2025-08-18T13:20:45.432-04:00 DEBUG 7348 --- [o-auto-1-exec-3] c.m.c.controller.EmployeeController      : Received employee create request for [com.mindex.challenge.data.Employee@1e3ba852]
+2025-08-18T13:20:45.432-04:00 DEBUG 7348 --- [o-auto-1-exec-3] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@1e3ba852]
+2025-08-18T13:20:45.438-04:00 DEBUG 7348 --- [o-auto-1-exec-8] c.m.c.controller.EmployeeController      : Received employee create request for id [6e23e1e4-4f4d-47fb-bb60-358153b511db]
+2025-08-18T13:20:45.438-04:00 DEBUG 7348 --- [o-auto-1-exec-8] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee with id [6e23e1e4-4f4d-47fb-bb60-358153b511db]
+2025-08-18T13:20:45.447-04:00 DEBUG 7348 --- [o-auto-1-exec-4] c.m.c.controller.EmployeeController      : Received employee create request for id [6e23e1e4-4f4d-47fb-bb60-358153b511db] and employee [com.mindex.challenge.data.Employee@22c755db]
+2025-08-18T13:20:45.447-04:00 DEBUG 7348 --- [o-auto-1-exec-4] c.m.c.service.impl.EmployeeServiceImpl   : Updating employee [com.mindex.challenge.data.Employee@22c755db]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mindex.challenge.service.impl.ReportingStructureServiceImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-08-18T17:20:43" hostname="BRETS_COMPUTER" time="1.021">
+  <properties/>
+  <testcase name="testReportingStructureWithNestedReports" classname="com.mindex.challenge.service.impl.ReportingStructureServiceImplTest" time="0.975"/>
+  <testcase name="testReportingStructureWithOneReport" classname="com.mindex.challenge.service.impl.ReportingStructureServiceImplTest" time="0.024"/>
+  <testcase name="testReportingStructureNoReports" classname="com.mindex.challenge.service.impl.ReportingStructureServiceImplTest" time="0.019"/>
+  <system-out><![CDATA[13:20:40.061 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.ReportingStructureServiceImplTest]: ReportingStructureServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:20:40.181 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.ReportingStructureServiceImplTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2025-08-18T13:20:40.690-04:00  INFO 7348 --- [    Test worker] .c.s.i.ReportingStructureServiceImplTest : Starting ReportingStructureServiceImplTest using Java 21.0.6 with PID 7348 (started by b9lor in C:\Users\b9lor\..RIT\Jobs\mindex-code-challenge\mindex-code-challenge)
+2025-08-18T13:20:40.690-04:00 DEBUG 7348 --- [    Test worker] .c.s.i.ReportingStructureServiceImplTest : Running with Spring Boot v3.2.3, Spring v6.1.4
+2025-08-18T13:20:40.690-04:00  INFO 7348 --- [    Test worker] .c.s.i.ReportingStructureServiceImplTest : No active profile set, falling back to 1 default profile: "default"
+2025-08-18T13:20:41.264-04:00  INFO 7348 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-08-18T13:20:41.296-04:00  INFO 7348 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 MongoDB repository interfaces.
+2025-08-18T13:20:42.042-04:00  INFO 7348 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-08-18T13:20:42.059-04:00  INFO 7348 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-18T13:20:42.059-04:00  INFO 7348 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-08-18T13:20:42.139-04:00  INFO 7348 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-18T13:20:42.141-04:00  INFO 7348 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1401 ms
+2025-08-18T13:20:42.396-04:00  INFO 7348 --- [    Test worker] de.bwaldvogel.mongo.MongoServer          : started MongoServer(port: 57332, ssl: false)
+2025-08-18T13:20:42.568-04:00  INFO 7348 --- [    Test worker] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/21.0.6+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@19a5b637, com.mongodb.Jep395RecordCodecProvider@4f3c7808, com.mongodb.KotlinCodecProvider@4b4969ea]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[kubernetes.docker.internal:57332], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-08-18T13:20:42.602-04:00  INFO 7348 --- [-server-worker1] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x53c19620, L:/127.0.0.1:57332 - R:/127.0.0.1:57333] connected
+2025-08-18T13:20:42.602-04:00  INFO 7348 --- [-server-worker2] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x9582e60c, L:/127.0.0.1:57332 - R:/127.0.0.1:57334] connected
+2025-08-18T13:20:42.685-04:00  INFO 7348 --- [.internal:57332] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=kubernetes.docker.internal:57332, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=110637500}
+2025-08-18T13:20:43.222-04:00  INFO 7348 --- [-server-worker3] d.b.mongo.wire.MongoWireProtocolHandler  : client [id: 0x2d0ae444, L:/127.0.0.1:57332 - R:/127.0.0.1:57335] connected
+2025-08-18T13:20:43.255-04:00  INFO 7348 --- [-server-worker3] d.b.mongo.backend.AbstractMongoBackend   : created database test
+2025-08-18T13:20:43.255-04:00  INFO 7348 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection employee
+2025-08-18T13:20:43.272-04:00  INFO 7348 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.employee
+2025-08-18T13:20:43.757-04:00  INFO 7348 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 57336 (http) with context path ''
+2025-08-18T13:20:43.768-04:00  INFO 7348 --- [    Test worker] .c.s.i.ReportingStructureServiceImplTest : Started ReportingStructureServiceImplTest in 3.419 seconds (process running for 4.462)
+2025-08-18T13:20:44.512-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@217c6a1e]
+2025-08-18T13:20:44.515-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@3fad8636]
+2025-08-18T13:20:44.515-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@3fa57aa8]
+2025-08-18T13:20:44.515-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@7d4bdbd8]
+2025-08-18T13:20:44.615-04:00  INFO 7348 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18T13:20:44.615-04:00  INFO 7348 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-18T13:20:44.617-04:00  INFO 7348 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-18T13:20:44.654-04:00 DEBUG 7348 --- [o-auto-1-exec-1] c.m.c.controller.EmployeeController      : Received reporting structure request for employee id [96e8041e-7574-4eb8-8cba-3cce9554c9f3]
+2025-08-18T13:20:44.757-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@570127fa]
+2025-08-18T13:20:44.761-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@5b324447]
+2025-08-18T13:20:44.766-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@2ffcdc9b]
+2025-08-18T13:20:44.768-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@47994b51]
+2025-08-18T13:20:44.772-04:00 DEBUG 7348 --- [o-auto-1-exec-2] c.m.c.controller.EmployeeController      : Received reporting structure request for employee id [52035667-8e48-4fe6-8111-a21e5a609193]
+2025-08-18T13:20:44.782-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@5020e5ab]
+2025-08-18T13:20:44.786-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@19f1f330]
+2025-08-18T13:20:44.788-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@143fe09c]
+2025-08-18T13:20:44.790-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@41463c56]
+2025-08-18T13:20:44.795-04:00 DEBUG 7348 --- [o-auto-1-exec-5] c.m.c.controller.EmployeeController      : Received reporting structure request for employee id [1375457a-10f3-485e-b3fa-92607ca26eb9]
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\b9lor\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.12\be4984cb6fd1ef1d11f218a648889dfda44b8a15\byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mindex.challenge.service.impl.CompensationServiceImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-18T17:20:45" hostname="BRETS_COMPUTER" time="0.071">
+  <properties/>
+  <testcase name="testCreateAndReadCompensation" classname="com.mindex.challenge.service.impl.CompensationServiceImplTest" time="0.071"/>
+  <system-out><![CDATA[2025-08-18T13:20:45.323-04:00  INFO 7348 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.mindex.challenge.service.impl.CompensationServiceImplTest]: CompensationServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-18T13:20:45.329-04:00  INFO 7348 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.mindex.challenge.ChallengeApplication for test class com.mindex.challenge.service.impl.CompensationServiceImplTest
+2025-08-18T13:20:45.329-04:00 DEBUG 7348 --- [    Test worker] c.m.c.service.impl.EmployeeServiceImpl   : Creating employee [com.mindex.challenge.data.Employee@517d9cd5]
+2025-08-18T13:20:45.380-04:00  INFO 7348 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : adding unique _id index for collection compensation
+2025-08-18T13:20:45.380-04:00  INFO 7348 --- [-server-worker3] d.b.mongo.backend.AbstractMongoDatabase  : created collection test.compensation
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

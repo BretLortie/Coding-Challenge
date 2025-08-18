@@ -6,6 +6,12 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * Represents an employee's compensation details.
+ * 
+ * This class is used to store the salary and effective date of a compensation
+ * for an employee in the in memory MongoDB database.
+ */
 @Document
 public class Compensation {
     @Id
